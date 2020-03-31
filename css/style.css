@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    font-family: 'Tinos', serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerBlock {
+    width: 100%;
+}
+
+.headerMenu {
+    width: 100%;
+    height: auto;
+    padding: 18px 0;
+    color: #283618;
+    background-color: rgba(254, 250, 224, 1);
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.headerSearch {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #283618;
+}
+
+.headerInput{
+    width: 12vw;
+    height: auto;
+    border: none; 
+    outline: none; 
+    vertical-align: top; 
+    background-color: #283618;
+    color:  #FEFAE0;
+    font-size: 18px;
+}
+
+.searchImage {
+    width: 1.4vw;
+    height: 1.4vw;
+    padding: 0 5px;
+}
+
+.socialNetwork {
+    display: flex;
+}
+
+.headerLogo {
+    width: 5.4vw;
+    height: 5.4vw;
+}
+
+.socialImage {
+    width: 2vw;
+    height: 2vw;
+    padding-left: 16px;
+}
+.languages {
+    font-size: 18px;
+}
+
+b.space {
+    padding-left: 10px;
+}
+
+.infoPageBlock{
+    background-color: #606C38;
+    padding: 100px 0;
+}
+
+.infoTitle{
+    display: block;
+    color: #FEFAE0;
+    font-size: 48px;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 380px;
+    font-weight: 700;
+    margin: 0px auto 50px auto;
+}
+.infoButton{
+    display: flex;
+    align-items: center;
+    background-color: #283618;
+    padding: 15px 30px;
+    margin: 80px 0;
+    border-radius: 50px;
+    width: 600px;
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+    color: #FEFAE0;
+    font-size: 32px;    
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.infoText{
+    color: #FEFAE0;
+    font-size: 30px;
+}
+
+.title{
+    margin: 50px 0;
+    font-size: 48px;
+}
+
+.text{    
+    margin-bottom: 10px;
+}
+
+.exursionBlock{
+    background-color: #606C38;
+    padding: 100px 0;
+}
+
+.exursionTitle{
+    display: block;
+    color: #FEFAE0;
+    font-size: 40px;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 225px;
+    font-weight: 700;
+    margin: 0px auto 80px auto;
+}
+
+.exursionInner .card{
+    width: 100%;
+    height: calc(1010px - 34vw);
+    position: relative;
+    margin: 50px 0;
+    
+}
+
+.exursionInner .first{
+    background: url(./../images/exPage1.png)  center/cover no-repeat;
+}
+
+.exursionInner .second{
+    background: url(./../images/exPage2.png)  center/cover no-repeat;
+}
+
+.exursionInner .third{
+    background: url(./../images/exPage3.png)  center/cover no-repeat;
+}
+
+.cardContent{
+    text-align: center;
+    height: calc(100% - 100px);
+    width: calc(50% - 100px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(40, 54, 24, 0.9);
+    color: rgba(254, 250, 224, 1);
+    padding: 50px;
+}
+
+
+
+.cardContent .title {
+    font-size: 24px;
+    width: 27vw;
+    margin: 20px auto;
+}
+
+.cardContent .text {
+    font-size: 20px;
+    width: 27vw;
+    margin: 20px auto;
+}
+
+.animalsPageBlock{
+    background-color: #606C38;
+    padding: 100px 0;
+}
+
+.animalTitle{
+    display: block;
+    color: #FEFAE0;
+    font-size: 48px;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 238px;
+    font-weight: 700;
+    margin: 0px auto;
+}
+
+.animalsInner{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.animalsIcon{
+    width: 7vw;
+    height: 7vw;
+}
+
+.animalsItem .text{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #FEFAE0;
+    text-align: center;
+}
+
+.animalsItem .green{
+    color: #283618;
+}
+
+
+.animalsCard {
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(2, 30vw);
+    grid-column-gap: 2.4vw;
+    grid-row-gap: 2.4vw; 
+}
+
+.innerCard {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.animalsCard .page1Image1{
+    background: url(./../images/animalPage1Image1.png) center/cover no-repeat;
+}
+
+.animalsCard .page1Image2{
+    background: url(./../images/animalPage1Image2.png) center/cover no-repeat;
+}
+
+.animalsCard .page1Image3{
+    background: url(./../images/animalPage1Image3.png) center/cover no-repeat;
+}
+
+.animalsCard .page1Image4{
+    background: url(./../images/animalPage1Image4.png) center/cover no-repeat;
+}
+
+.animalsCard .page1Image5{
+    background: url(./../images/animalPage1Image5.png) center/cover no-repeat;
+}
+
+.animalsCard .page1Image6{
+    background: url(./../images/animalPage1Image6.png) center/cover no-repeat;
+}
+
+
+.animalsCard .page2Image1{
+    background: url(./../images/animalPage2Image1.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page2Image2{
+    background: url(./../images/animalPage2Image2.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page2Image3{
+    background: url(./../images/animalPage2Image3.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page2Image4{
+    background: url(./../images/animalPage2Image4.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page2Image5{
+    background: url(./../images/animalPage2Image5.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page2Image6{
+    background: url(./../images/animalPage2Image6.jpg) center/cover no-repeat;
+}
+
+
+.animalsCard .page3Image1{
+    background: url(./../images/animalPage3Image1.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image1{
+    background: url(./../images/animalPage4Image1.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image2{
+    background: url(./../images/animalPage4Image2.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image3{
+    background: url(./../images/animalPage4Image3.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image4{
+    background: url(./../images/animalPage4Image4.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image5{
+    background: url(./../images/animalPage4Image5.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page4Image6{
+    background: url(./../images/animalPage4Image6.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image1{
+    background: url(./../images/animalPage5Image1.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image2{
+    background: url(./../images/animalPage5Image2.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image3{
+    background: url(./../images/animalPage5Image3.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image4{
+    background: url(./../images/animalPage5Image4.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image5{
+    background: url(./../images/animalPage5Image5.jpg) center/cover no-repeat;
+}
+
+.animalsCard .page5Image6{
+    background: url(./../images/animalPage5Image6.jpg) center/cover no-repeat;
+}
+
+
+.cardText {
+    background-color: rgba(96, 108, 56, 0.8);
+    color: #FEFAE0;
+    font-size: 30px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding: 4vw 0;
+    text-align: center;
+}
+
+.footerBlock{
+    padding: 50px 0;
+    background-color: #283618;
+}
+
+.footerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerImage{
+    width: 14vw;
+    height: 14wv;
+}
+
+.footerText{
+    font-size: 24px;
+    color: #FEFAE0;
+    font-weight: 700;
+}
+
+

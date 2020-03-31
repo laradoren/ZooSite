@@ -1,0 +1,390 @@
+@media (max-width: 1100px) {
+    .headerBlock {
+        height: 450px;
+    }
+    .headerText{
+        font-size: 13px;
+        line-height: 20px;
+        padding-right: 7px;
+    }
+    .headerSearch {
+        padding: 3px 5px;
+        border-radius: 50px;
+    }
+
+    .headerInput{
+        font-size: 13px;
+    }
+
+    .headerLogo {
+        padding-right: 5px;
+    }
+
+    .socialImage {
+        padding: 0px 5px;
+    }
+
+    .languages {
+        font-size: 13px;
+    }
+    
+    b.space {
+        padding-left: 5px;
+    }
+
+    .headerContentText{
+        float: none;
+        width: 240px;
+        margin: 50px auto;
+    }
+    
+    .headerTitle{
+        font-size: 30px;
+        width: 180px;        
+    }
+    
+    .smallButton1 {
+        width: 170px;
+    }
+    .smallButton2 {
+        width: 140px;
+    }
+    
+    .headerLinks {
+        margin-top: 10px;
+        text-align: right;
+    }
+    
+    .headerButton {
+        padding: 10px 15px;
+        margin-top: 5px;
+    }
+
+    .link {
+        font-size: 20px;    
+    }
+
+    .arrow{
+        width: 15px;
+        height: 15px;
+        padding-left: 5px;
+    }
+
+    .animalsBlock {
+        background-color: #FEFAE0;
+        padding: 50px 0;
+    }
+
+    .cardText {
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 30px;
+        margin: 0px auto 30px auto;
+    }
+
+    .titleAnimals {
+        width: 150px;
+    }
+
+    .animalsButton {
+        padding: 10px 15px;
+        margin-top: 5px;
+        width: 100px;
+        margin: 20px auto 0 auto;
+    }
+
+    .greenOpacityBlock {
+        width: 100%;
+        height: calc(100% - 100px);
+        background-color: rgba(40, 54, 24, 0.5);
+        padding: 50px 0;
+    }
+
+    .zooTeamTitle {
+        width: 501px;
+    }
+
+    .zooTeamText {
+        font-size: 20px;
+        width: 163px;
+    }
+    
+    .newsBlock{
+        padding: 50px 0;
+    }
+
+    .titleNews {
+        width: 137px;
+    }
+
+    .mapTitle {
+        width: 272px;
+        margin: 100px auto;
+    }
+
+    .planBlock{
+        padding: 50px 0;
+    }
+
+    .planTitle{
+        width: 280px;
+        margin: 30px auto;
+    }
+    
+    .planText{
+        font-size: 30px;
+    }
+        
+    .biletsBlock{
+        padding: 50px 0;
+    }
+
+    .biletsTitle{
+        width: 182px;
+        margin-top: 10px;
+    }
+
+    .biletsText{
+        font-size: 30px;
+        margin: 0px auto 10px auto;
+    }
+
+    .biletsButton{
+        padding: 10px 15px;
+        margin-top: 5px;
+        width: 235px;
+        margin: 20px auto 0 auto;
+    }
+
+    .contactTitle{
+        width: 174px;
+    }
+    
+    .contactContentText{
+        font-size: 20px;
+    }
+
+    .space{
+        margin-top: 10px;
+    }
+
+    .partherBlock{
+        padding: 50px 0;
+    }
+    
+    .partherTitle{
+        width: 270px;
+    }
+    
+    .partherInner{
+        margin: 20px 0;
+    }
+    
+    .partherText{
+        font-size: 18px;
+    }
+    
+    .footerBlock{
+        padding: 25px 0;
+    }
+
+    .footerText{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .headerBlock {
+        height: 320px;
+    }
+    .headerText{
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+
+    .headerLogo {
+        width: 100px;
+        height: 100px;
+        padding-right: 5px;
+    }
+
+    .socialImage {
+        width: 40px;
+        height: 40px;
+        padding: 0px 5px;
+    }
+
+    .languages {
+        display: none;
+    }
+
+    .headerContentText{
+        margin: 25px auto; 
+        width: 110px;
+    }
+
+    .headerTitle{
+        font-size: 20px;
+        width: 110px;        
+    }
+    
+    .smallButton1 {
+        width: 83px;
+    }
+    .smallButton2 {
+        width: 65px;
+    }
+    
+    .headerLinks {
+        margin-top: 10px;
+    }
+    
+    .headerButton {
+        padding: 5px 7px;
+        margin-top: 5px;
+    }
+
+    .link {
+        font-size: 9px;    
+    }
+
+    .arrow{
+        width: 10px;
+        height: 10px;
+        padding-left: 3px;
+    }
+
+    .animalsBlock {
+        padding: 25px 0;
+    }
+
+    .cardText {
+        font-size: 10px;
+    }
+
+    .title{
+        font-size: 18px;
+        margin: 0px auto 10px auto;
+    }
+
+    .titleAnimals {
+        width: 90px;
+    }
+
+    .animalsButton {
+        padding: 5px 7px;
+        margin-top: 5px;
+        width: 50px;
+    }
+
+    .greenOpacityBlock {
+        height: calc(100% - 50px);
+        padding: 25px 0;
+    }
+
+    .zooTeamTitle {
+        width: 170px;
+        text-align: center;
+    }
+
+    .zooTeamText {
+        font-size: 10px;
+        width: 73px;
+    }
+    
+    .newsBlock{
+        padding: 25px 0;
+    }
+
+    .titleNews {
+        width: 84px;
+    }
+
+    .mapTitle {
+        width: 163px;
+        margin: 50px auto;
+    }
+
+    .planBlock{
+        padding: 25px 0;
+    }
+
+    .planTitle{
+        width: 80px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    
+    .planText{
+        font-size: 15px;
+    }
+        
+    .biletsBlock{
+        padding: 25px 0;
+        
+    }
+
+    .biletsTitle{
+        width: 110px;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .biletsText{
+        font-size: 15px;
+        margin: 0px auto 5px auto;
+    }
+
+    .biletsButton{
+        padding: 5px 7px;
+        margin-top: 5px;
+        width: 90px;
+    }
+
+    .contactTitle{
+        width: 104px;
+    }
+    
+    .contactContentText{
+        font-size: 10px;
+    }
+
+    .space{
+        margin-top: 2px;
+    }
+
+    .partherBlock{
+        padding: 25px 0;
+    }
+    
+    .partherTitle{
+        width: 160px;
+    }
+    
+    .partherInner{
+        margin: 15px 0;
+    }
+    
+    .partherText{
+        font-size: 10px;
+    }
+    
+    .footerBlock{
+        padding: 13px 0;
+    }
+
+    .footerBlock .socialImage{
+        display: none;
+    }
+
+    .footerText{
+        font-size: 7px;
+    }
+    
+}
+

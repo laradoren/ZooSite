@@ -1,0 +1,267 @@
+@media (max-width: 1100px) {
+    .headerText{
+        font-size: 13px;
+        line-height: 20px;
+        padding-right: 7px;
+    }
+    .headerSearch {
+        padding: 3px 5px;
+        border-radius: 50px;
+    }
+
+    .headerInput{
+        font-size: 13px;
+    }
+
+    .headerLogo {
+        padding-right: 5px;
+    }
+
+    .socialImage {
+        padding: 0px 5px;
+    }
+
+    .languages {
+        font-size: 13px;
+    }
+    
+    b.space {
+        padding-left: 5px;
+    }
+
+    .headerContentText{
+        margin: 50px auto; 
+    }
+
+    .link {
+        font-size: 20px;    
+    }
+
+    .arrow{
+        width: 15px;
+        height: 15px;
+        padding-left: 5px;
+    }
+    
+    .infoPageBlock{
+        padding: 50px 0;
+    }
+    
+    .infoTitle{
+        font-size: 30px;
+        width: 240px;
+        margin: 0px auto 30px auto;
+    }
+    .infoButton{
+        padding: 10px 15px;
+        margin-top: 5px;
+        width: 366px;
+        margin: 10px auto 0 auto;
+    }
+    
+    .infoText{
+        font-size: 18px;
+    }
+    
+    .title{
+        margin: 25px 0;
+        font-size: 30px;
+    }
+    
+    .text{    
+        margin-bottom: 5px;
+    }
+    
+    .exursionBlock{
+        padding: 50px 0;
+    }
+    
+    .exursionTitle{
+        font-size: 30px;
+        width: 170px;
+        margin: 0px auto 30px auto;
+    }
+    
+    .exursionInner .card{
+        margin: 25px 0;        
+    }
+       
+    .cardContent{
+        height: calc(100% - 50px);
+        width: calc(50% - 50px);
+        padding: 25px;
+    }   
+    
+    .cardContent .title {
+        font-size: 18px;
+        width: 27vw;
+        margin: 10px auto;
+    }
+    
+    .cardContent .text {
+        font-size: 18px;
+        width: 27vw;
+        margin: 10px auto;
+    }
+    
+    .animalsPageBlock{
+        padding: 50px 0;
+    }    
+    .animalTitle{
+        font-size: 30px;
+        width: 150px;
+    }
+    
+    .animalsInner{
+        margin: 50px 0;
+    }
+    
+    .animalsItem .text{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    
+    .cardText {
+        font-size: 15px;
+    }
+    
+    .footerBlock{
+        padding: 25px 0;
+    }
+
+    .footerText{
+        font-size: 12px;
+    } 
+   
+    
+}
+
+@media (max-width: 700px) {
+    .headerText{
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .headerLogo {
+        width: 100px;
+        height: 100px;
+        padding-right: 5px;
+    }
+
+    .socialImage {
+        width: 40px;
+        height: 40px;
+        padding: 0px 5px;
+    }
+
+    .languages {
+        display: none;
+    }
+
+    .link {
+        font-size: 9px;    
+    }
+
+    .arrow{
+        width: 10px;
+        height: 10px;
+        padding-left: 3px;
+    }
+    
+    .infoPageBlock{
+        padding: 40px 0;
+    }
+    
+    .infoTitle{
+        font-size: 20px;
+        width: 157px;
+        margin: 0px auto 15px auto;
+    }
+    .infoButton{
+        padding: 5px 7px;
+        margin-top: 5px;
+        width: 170px;
+        margin: 10px auto 0 auto;
+    }
+    
+    .infoText{
+        font-size: 10px;
+    }
+    
+    .title{
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    
+    .text{    
+        margin-bottom: 5px;
+    }
+    
+    .exursionBlock{
+        padding: 40px 0;
+    }
+    
+    .exursionTitle{
+        font-size: 20px;
+        width: 112px;
+        margin: 0px auto 15px auto;
+    }
+    
+    .exursionInner .card{
+        margin: 25px 0;   
+        height: 300px;     
+    }
+       
+    .cardContent{
+        height: calc(100% - 30px);
+        width: calc(100% - 30px);
+        padding: 15px;
+    }   
+    
+    .cardContent .title {
+        font-size: 10px;
+        width: 90%;
+    }
+    
+    .cardContent .text {
+        font-size: 12px;
+        width: 90%;
+    }
+    
+    .animalsPageBlock{
+        padding: 40px 0;
+    }    
+    .animalTitle{
+        font-size: 20px;
+        width: 100px;
+    }
+    
+    .animalsInner{
+        margin: 25px 0;
+    }
+    
+    .animalsItem .text{
+        margin-top: 5px;
+        font-size: 7px;
+    }
+    
+    .cardText {
+        font-size: 10px;
+    }
+    
+    .footerBlock{
+        padding: 13px 0;
+    }
+
+    .footerBlock .socialImage{
+        display: none;
+    }
+
+    .footerText{
+        font-size: 7px;
+    }
+   
+    
+}
+

@@ -1,0 +1,497 @@
+body {
+    margin: 0;
+    font-family: 'Tinos', serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerBlock {
+    width: 100%;
+    height: 750px;
+    background: url(./../images/headerBackgroundImage.jpg) center/cover no-repeat;
+}
+
+.headerMenu {
+    width: 100%;
+    height: auto;
+    padding: 18px 0;
+    color: #283618;
+    background-color: rgba(254, 250, 224, 0.7);
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.headerSearch {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #283618;
+}
+
+.headerInput{
+    width: 12vw;
+    height: 1.4vw;
+    border: none; 
+    outline: none; 
+    vertical-align: top; 
+    background-color: #283618;
+    color:  #FEFAE0;
+    font-size: 18px;
+}
+
+.searchImage {
+    width: 1.4vw;
+    height: 1.4vw;
+    padding: 0 5px;
+}
+
+.socialNetwork {
+    display: flex;
+}
+
+.headerLogo {
+    width: 5.4vw;
+    height: 5.4vw;
+    padding-right: 10px;
+}
+
+.socialImage {
+    width: 2vw;
+    height: 2vw;
+    padding-left: 16px;
+}
+.languages {
+    font-size: 18px;
+}
+
+b.space {
+    padding-left: 10px;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.headerContentText{
+    float: right;
+    margin-top: 100px;
+}
+
+.headerTitle{
+    text-align: center;
+    color: #FEFAE0;
+    font-size: 48px;
+    border-bottom: 1px solid #FEFAE0;
+    width: 290px;    
+}
+
+.smallButton1 {
+    width: 279px;
+}
+.smallButton2 {
+    width: 220px;
+}
+
+.headerLinks {
+    margin-top: 20px;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    background-color: #606C38;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+    color: #FEFAE0;
+    font-size: 32px;    
+}
+
+.animalsBlock {
+    background-color: #FEFAE0;
+    padding: 100px 0;
+}
+
+.titleAnimals {
+    color: #283618;
+    border-bottom: 2.5px solid #283618;
+    width: 238px;
+}
+
+.title{
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px auto 50px auto;
+}
+
+.animalsInner {
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(2, 30vw);
+    grid-column-gap: 2.4vw;
+    grid-row-gap: 2.4vw; 
+}
+
+.innerCard {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.animalsInner .first{
+    background: url(./../images/animalImage1.png) center/cover no-repeat;
+}
+
+.animalsInner .second{
+    background: url(./../images/animalImage2.png) center/cover no-repeat;
+}
+
+.animalsInner .third{
+    background: url(./../images/animalImage3.png) center/cover no-repeat;
+}
+
+.animalsInner .fourth{
+    background: url(./../images/animalImage4.png) center/cover no-repeat;
+}
+
+.animalsInner .fifth{
+    background: url(./../images/animalImage5.png) center/cover no-repeat;
+}
+
+.animalsInner .sixth{
+    background: url(./../images/animalImage6.png) center/cover no-repeat;
+}
+
+.cardText {
+    background-color: rgba(96, 108, 56, 0.8);
+    color: #FEFAE0;
+    font-size: 30px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    padding: 4vw 0;
+    text-align: center;
+}
+
+.animalsButton {
+    display: flex;
+    align-items: center;
+    background-color: #606C38;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 160px;
+    margin: 50px auto 0 auto;
+    font-weight: 700;
+}
+
+.zooTeamBlock {
+    width: 100%;
+    height: auto;
+    background: url(./../images/zooTeamImage.png) center/cover no-repeat;
+}
+
+.greenOpacityBlock {
+    width: 100%;
+    height: calc(100% - 200px);
+    background-color: rgba(40, 54, 24, 0.5);
+    padding: 100px 0;
+}
+
+.zooTeamTitle {
+    color: #FEFAE0;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 801px;
+}
+
+.zooTeamInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.zooTeamImage {
+    width: 20vw;
+    height: 20vw;
+}
+
+.zooTeamText {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FEFAE0;
+    text-align: center;
+    width: 300px;
+}
+
+.newsBlock{
+    background-color: #FEFAE0;
+    padding: 100px 0;
+}
+
+.titleNews {
+    color: #283618;
+    border-bottom: 2.5px solid #283618;
+    width: 225px;
+}
+
+.newsInner{
+    width: 100%;
+    display: grid;
+    grid-template-areas:  "img1 img2 img2 img3"
+                          "img4 img4 img4 img5"
+                          "img4 img4 img4 img6"
+                          "img7 img7 img8 img9"
+                          "img7 img7 img10 img11";
+}
+
+.newsImage1 {
+    grid-area: img1;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage2 {
+    grid-area: img2;
+    width: 40.6vw;
+    height: 20vw;
+}
+
+.newsImage3 {
+    grid-area: img3;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage4 {
+    grid-area: img4;
+    width: 60.85vw;
+    height: 40vw;
+}
+
+.newsImage5 {
+    grid-area: img5;
+    width: 20.25vw;
+    height: 20vw;
+
+}
+
+.newsImage6 {
+    grid-area: img6;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage7 {
+    grid-area: img7;
+    width: 40.58vw;
+    height: 40vw;
+}
+
+.newsImage8 {
+    grid-area: img8;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage9 {
+    grid-area: img9;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage10 {
+    grid-area: img10;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.newsImage11 {
+    grid-area: img11;
+    width: 20.25vw;
+    height: 20vw;
+}
+
+.mapBlock {
+    width: 100%;
+    height: auto;
+    background: url(./../images/mapImage.png) center/cover no-repeat;
+}
+
+.greenOpacityBlock {
+    width: 100%;
+    height: calc(100% - 200px);
+    background-color: rgba(40, 54, 24, 0.5);
+    padding: 100px 0;
+}
+
+.mapTitle {
+    color: #FEFAE0;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 435px;
+    margin: 200px auto;
+}
+
+.infoBlock{
+    display: flex;
+}
+
+.planBlock{
+    width: 50%;
+    background-color: #606C38;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.planTitle{
+    color: #FEFAE0;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 450px;
+    margin: 50px auto;
+}
+
+.planText{
+    color: #FEFAE0;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px auto 50px auto;
+}
+
+.biletsBlock{
+    width: 50%;
+    background-color: #FEFAE0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.biletsTitle{
+    color: #606C38;
+    border-bottom: 2.5px solid #606C38;
+    width: 291px;
+    margin: 30px auto 50px auto;
+}
+
+.biletsText{
+    color: #606C38;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px auto 50px auto;
+}
+
+.biletsButton{
+    display: flex;
+    align-items: center;
+    background-color: #606C38;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 385px;
+    margin: 50px auto 0 auto;
+}
+
+.space{
+    margin-top: 50px;
+}
+.contactsBlock{
+    width: 100%;
+    height: auto;
+    background: url(./../images/contactImageBackground.png) center/cover no-repeat;
+}
+
+.contactTitle{
+    color: #FEFAE0;
+    border-bottom: 2.5px solid #FEFAE0;
+    width: 280px;
+}
+
+.contactInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactImage{
+    width: 40vw;
+    height: 27vw;
+}
+
+.contactContentText{
+    color: #FEFAE0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.partherBlock{
+    background-color: #FEFAE0;
+    padding: 100px 0;
+}
+
+.partherTitle{
+    color: #283618;
+    border-bottom: 2.5px solid #283618;
+    width: 427px;
+}
+
+.partherInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.partherText{
+    color: #283618;
+    font-size: 30px;
+}
+
+.partherImage{
+    width: 10vw;
+    height: 10vw;
+}
+
+.text{
+    padding-bottom: 10px;
+}
+
+.footerBlock{
+    padding: 50px 0;
+    background-color: #283618;
+}
+
+.footerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerImage{
+    width: 14vw;
+    height: 14wv;
+}
+
+.footerText{
+    font-size: 24px;
+    color: #FEFAE0;
+    font-weight: 700;
+}
