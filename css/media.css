@@ -183,7 +183,7 @@
     }
     
     .partherText{
-        font-size: 18px;
+        font-size: 24px;
     }
     
     .footerBlock{
@@ -191,14 +191,14 @@
     }
 
     .footerText{
-        font-size: 12px;
+        font-size: 15px;
     }
     
 }
 
 @media (max-width: 700px) {
     .headerBlock {
-        height: 320px;
+        height: 450px;
     }
     .headerText{
         display: none;
@@ -224,62 +224,72 @@
     }
 
     .headerContentText{
-        margin: 25px auto; 
-        width: 110px;
+        float: none;
+        width: 197px;
+        margin: 50px auto;
     }
-
+    
     .headerTitle{
-        font-size: 20px;
-        width: 110px;        
+        font-size: 30px;
+        width: 180px;        
     }
     
     .smallButton1 {
-        width: 83px;
+        width: 140px;
     }
     .smallButton2 {
-        width: 65px;
+        width: 110px;
     }
     
     .headerLinks {
         margin-top: 10px;
+        text-align: right;
     }
     
     .headerButton {
-        padding: 5px 7px;
+        padding: 10px 15px;
         margin-top: 5px;
     }
 
     .link {
-        font-size: 9px;    
+        font-size: 16px;    
     }
 
     .arrow{
-        width: 10px;
-        height: 10px;
-        padding-left: 3px;
+        width: 15px;
+        height: 15px;
+        padding-left: 5px;
     }
+
 
     .animalsBlock {
         padding: 25px 0;
     }
 
     .cardText {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .title{
         font-size: 18px;
-        margin: 0px auto 10px auto;
+        margin: 0px auto 15px auto;
     }
 
     .titleAnimals {
         width: 90px;
     }
-
+    .animalsInner {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(120px, 280px));
+        grid-template-rows: repeat(3, 30vw);
+        grid-column-gap: 2.4vw;
+        grid-row-gap: 2.4vw; 
+    }
+    
     .animalsButton {
         padding: 5px 7px;
-        margin-top: 5px;
-        width: 50px;
+        margin-top: 10px;
+        width: 90px;
     }
 
     .greenOpacityBlock {
@@ -293,8 +303,8 @@
     }
 
     .zooTeamText {
-        font-size: 10px;
-        width: 73px;
+        font-size: 13px;
+        width: 70px;
     }
     
     .newsBlock{
@@ -343,7 +353,7 @@
     .biletsButton{
         padding: 5px 7px;
         margin-top: 5px;
-        width: 90px;
+        width: 120px;
     }
 
     .contactTitle{
@@ -351,11 +361,11 @@
     }
     
     .contactContentText{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .space{
-        margin-top: 2px;
+        margin-top: 0px;
     }
 
     .partherBlock{
@@ -371,11 +381,17 @@
     }
     
     .partherText{
-        font-size: 10px;
+        font-size: 14px;
+    }
+    .text{
+        padding-bottom: 5px;
     }
     
     .footerBlock{
         padding: 13px 0;
+    }
+    .footerImage{
+        margin-right: 9px;
     }
 
     .footerBlock .socialImage{
@@ -383,7 +399,8 @@
     }
 
     .footerText{
-        font-size: 7px;
+        font-size: 10px;
+        margin-right: 5px;
     }
     
 }

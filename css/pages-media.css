@@ -160,12 +160,13 @@
     }
 
     .link {
-        font-size: 9px;    
+        font-size: 13px;    
     }
 
     .arrow{
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
+        padding-left: 5px;
         padding-left: 3px;
     }
     
@@ -174,19 +175,19 @@
     }
     
     .infoTitle{
-        font-size: 20px;
+        font-size: 24px;
         width: 157px;
         margin: 0px auto 15px auto;
     }
     .infoButton{
         padding: 5px 7px;
         margin-top: 5px;
-        width: 170px;
+        width: 242px;
         margin: 10px auto 0 auto;
     }
     
     .infoText{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .title{
@@ -214,18 +215,18 @@
     }
        
     .cardContent{
-        height: calc(100% - 30px);
-        width: calc(100% - 30px);
-        padding: 15px;
+        height: calc(100% - 10px);
+        width: calc(100% - 10px);
+        padding: 5px;
     }   
     
     .cardContent .title {
-        font-size: 10px;
+        font-size: 15px;
         width: 90%;
     }
     
     .cardContent .text {
-        font-size: 12px;
+        font-size: 13px;
         width: 90%;
     }
     
@@ -243,15 +244,18 @@
     
     .animalsItem .text{
         margin-top: 5px;
-        font-size: 7px;
+        font-size: 8px;
     }
     
     .cardText {
-        font-size: 10px;
+        font-size: 12px;
     }
     
     .footerBlock{
         padding: 13px 0;
+    }
+    .footerImage{
+        margin-right: 9px;
     }
 
     .footerBlock .socialImage{
@@ -259,7 +263,8 @@
     }
 
     .footerText{
-        font-size: 7px;
+        font-size: 10px;
+        margin-right: 5px;
     }
    
     

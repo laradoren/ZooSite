@@ -440,6 +440,7 @@ b.space {
     color: #FEFAE0;
     font-size: 36px;
     font-weight: 700;
+    text-align: right;
 }
 
 .partherBlock{
@@ -487,7 +488,7 @@ b.space {
 
 .footerImage{
     width: 14vw;
-    height: 14wv;
+    height: 14vw;
 }
 
 .footerText{
